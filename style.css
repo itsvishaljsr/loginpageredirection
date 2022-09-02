@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-/* declaring global css color */
-:root {
-    --success-color: #2ecc71;
-    --error-color: #e74c3c;
-  }
-
 * {
     box-sizing: border-box;
 }
@@ -61,26 +55,6 @@ h2 {
 .form-elements input:focus {
     outline: 0ch;
     border-color: #777;
-}
-
-.form-elements.success input {
-    border-color: var(--success-color);
-}
-
-.form-elements.error input {
-    border-color: var(--error-color);
-}
-
-.form-elements small {
-    color: var(--error-color);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    visibility: hidden;
-}
-
-.form-elements.error small {
-    visibility: visible;
 }
 
 .form button {
